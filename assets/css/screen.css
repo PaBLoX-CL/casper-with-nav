@@ -617,6 +617,13 @@ margin on the iframe, cause it breaks stuff. */
     margin-right: 6px;
 }
 
+/* Little workaround to make sure the subscribe button stays
+   rounded if there's no other menu item */
+.icon-feed:last-child,
+.subscribe-button:only-child {
+  border-radius: 3px;
+}
+
 .menu-button {
   border-radius: 0;
 }
