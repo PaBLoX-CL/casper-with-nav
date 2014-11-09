@@ -10,7 +10,7 @@ This is the smaller modification I could bring to add a simple navigation withou
 fiddling too much with casper source code.
 
 To add items to the menu, you have to create a post, and make it a "Static Page".
-Then you have to modify the [partials/menu.hbs]() file, and add the exact slug it
+Then you have to modify the [partials/menu.hbs](partials/menu.hbs) file, and add the exact slug it
 was previously created.
 
 That's it, enjoy your ghost with navigation powered theme :P.
