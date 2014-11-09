@@ -627,9 +627,6 @@ margin on the iframe, cause it breaks stuff. */
 .main-nav.overlay .menu-button {
   border-right: 0;
 }
-.main-nav.overlay .menu-button:last-child {
-  border-radius: 3px 0 0 3px;
-}
 
 /* Special styles when overlaid on an image*/
 .main-nav.overlay {
