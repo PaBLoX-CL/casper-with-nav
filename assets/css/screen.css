@@ -647,7 +647,7 @@ margin on the iframe, cause it breaks stuff. */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,0)));
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
     background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
-    z-index: 9999;
+    z-index: 9999; /* Necessary to make sure the menu is *over* the blog title */
 }
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
