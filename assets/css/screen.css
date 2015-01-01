@@ -1735,6 +1735,30 @@ body:not(.post-template) .post-title {
 
 }
 
+/* ==========================================================================
+   11b. Media Queries - Smaller than 350px
+   ========================================================================== */
+
+/* This avoids the overflowing of the navigation bar over the title. It basically
+ * makes all the elements go back into the normal flow, and therefore _pushes down_
+ * the title.
+ *
+ * TODO: This is a temporal solution while I setup an hamburger menu or something
+ * more elegant */
+@media only screen and (max-width: 400px) {
+
+    .main-header {
+        padding-top: 0px;
+    }
+
+    .main-nav.overlay {
+        position: relative;
+    }
+
+    .vertical {
+        display: block;
+    }
+}
 
 /* ==========================================================================
    12. Animations
